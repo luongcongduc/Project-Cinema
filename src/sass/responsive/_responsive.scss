@@ -1,0 +1,227 @@
+@media screen and (max-width: 736px){
+    .main__header{
+        .header{
+            .menu__section{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: grba(0,0,0,.8);
+                pointer-events: inherit;
+                z-index: 10;
+                overflow: hidden;
+                transition: all .4s;
+                .menu__wrap{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 60%;
+                    height:100%;
+                    background:#fff;
+                    transition: all .4s;
+                    .list__section{
+                        a{
+                            display: block;
+                            z-index:5;
+                            color: #000;
+                            padding:20px 10px;
+                            font-size: 20px;
+                            text-decoration: none;
+                            &:hover{
+                                text-decoration: none;
+                                color:#000;
+                            }
+                        }
+                    }
+                    .menu__login{
+                        width:100%;
+                        display: flex;
+                        justify-content: space-between;
+                        justify-items: center;
+                        align-items: center;
+                        .account{
+                            .dang__nhap{
+                                text-decoration: none;
+                                text-decoration: none;
+                                color:#9b9b9b;
+                                display: flex;
+                                align-items: center;
+                                img{
+                                    margin:0 10px;
+                                    height:35px;
+                                    border-radius:50%;
+                                }
+                                p{
+                                    padding:15px 0;
+                                    font-size:15px;
+                                    font-weight: bold;
+                                    margin-bottom:0;
+                                }
+                            }
+                            .dang__xuat{
+                                display: none;
+                            }
+                        }
+                        .close__menu{
+                            background: none;
+                            border:none;
+                            padding: 15px;
+                            i{
+                                font-size: 20px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+                .menu__options{
+                    display: block;
+                    padding: 14px;
+                    button{
+                        background: none;
+                        border: none;
+                        i{
+                            font-size: 30px;
+                            color: gray;
+                        }
+                    }
+                }
+                .header__center{
+                    display: none;
+                }
+                .header__login{
+                    display: none;
+                }
+        }
+    }
+    #carousel__showTimes{
+        display: none;
+    }
+    .cinema__wrap{
+        width: 100%;
+    }
+};
+
+@media screen and (max-width: 992px){
+    //Home
+    //CAROUSEL
+    .showTimes{
+        .showTimes_wrap{
+            .movieDate{
+                display: none;
+            }
+        }
+    }
+
+    //AppHome
+    .appHome__wrap{
+        .appHome__box{
+            .box__left{
+                margin: auto;
+                text-align: center;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+            .box__right{
+                margin: auto;
+                text-align: center;
+                flex:0 0 100%;
+                max-width: 100%;
+                img{
+                    width:100%;
+                    display: block
+                }
+                .carousel__themes{
+                    padding:5% 30.3% 20% 30.3%;
+                    .carousel-item{
+                        margin-top: 30px;
+                        .item{
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news{
+        max-width:95%;
+        margin:0 auto;
+        .news__wrap{
+            .news__center{
+                .news__box{
+                    width: 100%;
+                    margin:0;
+                }
+            }
+        }
+     }
+        .footer__wrap{
+            .footer__box{
+                width: 100%;
+                .row{
+                    .footer__left,.footer__center{
+                        display: none;
+                    }
+                    .footer__right{
+                        .display__logo{
+                            .apps{
+                                .titles{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    .info{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        
+        // detail
+        .detail__content{
+            .detail__wrap{
+                .detail__box{
+                    width:100%;
+                    .detail__film{
+                        .img__film{
+                            transform: translate(-50%,-50%);
+                            top: 50%;
+                            left: 50%;
+
+                        }
+                        .info__film{
+                            transform: translate(-50%,65%);
+                            left:35%
+                        }
+                        .evaluate__film{
+                            display: none;
+                        }
+                    }
+                }
+                .detail__info{
+                    width:90%;
+                    margin:0 auto;
+                    .tab-content{
+                        width:100%;
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 1024px){
+    .film__section{
+        .film__list{
+            .tab-conten{
+                .slick-prev, .slick-next {
+                    display: none!important;
+                }
+            }
+        }
+    }
+}

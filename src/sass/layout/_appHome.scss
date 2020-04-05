@@ -1,0 +1,54 @@
+.appHome__wrap{
+    background-image: url(https://tix.vn/app/assets/img/icons/backapp.jpg);
+    background-size:contain;
+    padding:120px 0 80px 0 ;
+    .appHome__box{
+        max-width: 940px;
+        margin:auto;
+        .box__left{
+            color:white;
+            padding-top:70px;
+            .text_top{
+                font-size:28px;
+                font-weight:bold
+            }
+            .text_center{
+                font-weight: 700;
+                line-height: 30px;
+            }
+            button{
+                background-color:rgb(255, 60, 0);
+                border:none;
+                padding:10px 20px;
+                color:white;
+                font-weight:bold;
+                margin:14px 0;
+                border-radius:5px;
+                letter-spacing:1px;
+                &:hover{
+                    border:none;
+                    color: red;
+                    background:blue;
+                }
+            }
+            .text_bottom{
+                a{
+                    text-decoration: underline;
+                    color:white;
+                }
+            }
+        }
+        .box__right{
+            position: relative;
+            .carousel__themes{
+                position: absolute;
+                top:0;
+                left:0;
+                padding:11.4% 21% 50% 35.4%;
+                .item{
+                    width:212px;
+                }
+            }
+        }
+    }
+}

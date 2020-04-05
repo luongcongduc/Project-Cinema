@@ -1,0 +1,96 @@
+.cinema__wrap{
+    max-width:914px;
+    margin: 0 auto;
+    margin-top:50px;
+    border: 1px solid #eee;
+    .cinema__main{
+        display: flex;
+        .cinema__logo{
+            width:10%;
+            .logo{
+                display: block;
+                border-bottom: 1px solid #eee;
+            }
+        }
+        .cinema__address{
+            width:30%;
+            display:block;
+            border:1px solid #eee;
+            height:705px;
+            overflow-y:hidden; /* làm cho hình ko bị rung lắc khi click vào*/
+            &:hover{
+                overflow-y:auto;
+            }
+            button{
+                width:100%;
+                height:100px;
+                border-bottom:1px solid #eee;
+                .cumRap{
+                    display: flex;
+                    .cumRap__img{
+                        width:20%;
+                        padding:19px 0;
+                        img{
+                            width:50px;
+                        }
+                    }
+                    .cumRap__button{
+                        width:80%;
+                        padding:10px;
+                        .tenCumRap{
+                            font-size:14px;
+                            color:red;
+                            margin:0
+                        }
+                        .maCumRap{
+                            font-size: 12px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space:nowrap;
+                        }
+                    }
+                }
+            }
+            .cinema__box{
+                padding:10px;
+                display: block;
+            }
+        }
+        .cinema__times{
+            width:60%;
+            .name{
+                padding:15px;
+                display: flex;
+                img{
+                    width:50px;
+                    height:50px;
+                }
+                p{
+                    font-size:14px;
+                    font-weight:bold;
+                    margin:0;
+                    padding:0 10px;
+                }
+                span{
+                    font-size:16px;
+                    color:gray;
+                    padding: 0 10px;
+                }
+            }
+            .list__times{
+                a{
+                    margin: 10px;
+                    border:1px solid #eee;
+                    border-radius: 5px;
+                    color:#108f3e;
+                    font-weight:bold;
+                    font-size:15px;
+                    &:hover{
+                        color:red;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+}

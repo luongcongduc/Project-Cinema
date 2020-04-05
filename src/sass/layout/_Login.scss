@@ -1,0 +1,39 @@
+.login__wrap{
+    width:100vw;
+    height:100vh;
+    padding:0 calc(50% - 430px);    background-image: url("https://tix.vn/app/assets/img/icons/backapp.jpg");
+
+    .loggin{
+        position: fixed;
+        top: 50%;
+        left:50%;
+        z-index: 1050;
+        display: block;
+        max-width: 360px;
+        padding:40px 32px 30px;
+        transform: translate(-50%,-50%);
+        background-image: linear-gradient(to bottom,rgba(20,50,93,.9), rgba(8,22,48,.9));
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.45);
+        text-align: center;
+        color:white;
+        height:500px;
+        border-radius: 5px;
+        &:not(.show){
+            opacity: 1;
+        }
+        .login__logo{
+            img{
+                width:150px;
+                margin: 0 auto;
+            }
+        }
+        h3{
+            margin-top:40px;
+        }
+        .box{
+            button{
+                margin:0 10px;
+            }
+        }
+    }
+}

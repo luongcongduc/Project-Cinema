@@ -1,0 +1,11 @@
+.add__film{
+    margin-left: 260px;
+    .form__addfilm{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 10px;
+        button{
+            grid-column:2/span 1;
+        }
+    }
+}

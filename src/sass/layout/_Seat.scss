@@ -1,0 +1,197 @@
+.booking{
+    .card{
+        width: 300px;
+        margin: auto;
+        transform: translateY(-400%);
+        transition: all .3s
+    }
+    .checkOut{
+        position: fixed;
+        padding: 35px 0;
+        width: 80%;
+        z-index: 3;
+        box-shadow:0 0 15px rgba(0,0,0,.3);
+        background-color: white;
+        ul{
+            border:none;
+            li{
+                a{
+                    border:none;
+                    background:none;
+                    padding:0 20px;
+                }
+            }
+        }
+    }
+    .booking__box{
+        padding-top: 120px;
+        .address{
+            display: flex;
+            align-items: center;
+            width:80%;
+            .address__img{
+                width:10%;
+                img{
+                    width:50px;
+                    height:50px;
+                }
+            }
+            .address__box{
+                padding:0 10px;
+                width:80%;
+                .address__rap{
+                    color:orange;
+                }
+            }
+            .countdown{
+                width: 10%;
+                .reload{
+                    border: 1px solid #eee;
+                    padding:15px;
+                    width:100%;
+                    height:100%;
+                    position: fixed;
+                    top:0;
+                    left:0;
+                    right:0;
+                    text-align: center;
+                    background-color: rgba(0,0,0,.85);
+                    z-index:6;
+                    .text-reload{
+                        position: absolute;
+                        top:40%;
+                        color:black;
+                        left:50%;
+                        padding:40px;
+                        background-color:#fff;
+                        transform: translate(-50%, -50%);
+                        border-radius: 5px;
+                        .reload__times{
+                            cursor:pointer;
+                        }
+                    }
+                }
+                .text__times{
+                    font-size:10px;
+                    font-weight: bold;
+                    .countdown__times{
+                        display: block;
+                        font-size: 30px;
+                        color:red;
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+    .screen__room{
+        width:80%;
+        display: flex;
+        .alpha{
+            margin-top: 90px;
+            line-height: 2.2;
+        }
+        .room{
+            .list__seat{
+                display: grid;
+                grid-template-columns: repeat(16, auto);
+                grid-gap:5px;
+                .single__seat{
+                    width:40px;
+                    height:30px;
+                    text-align:center;
+                    .seat{
+                        width: 100%;
+                        height: 100%;
+                        text-align:center;
+                        font-size: 10px;
+                        color:white;
+                        border: none;
+                        border-radius: 3px;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        background-color: lightgray;
+                    }
+                }
+            }
+            .types{
+                .list__types{
+                    display: inline-block;
+                    margin: 40px;
+                    .img__thuong{
+                        display: block;
+                        width:20px;
+                        height: 20px;
+                        border-radius: 3px;
+                        background: gray;
+                        margin: auto;
+                    }
+                    .img__vip{
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 3px;
+                        background: purple;
+                        margin: auto;
+
+                    }
+                    .img__dangchon{
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 3px;
+                        background: green;
+                        margin: auto;
+                    }
+                    img{
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 3px;
+                        background: lightgray;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+        .booking__ticket{
+            position: fixed;
+            width: 20%;
+            top:0;
+            right: 0;
+            bottom: 0;
+            border-left: 1px solid #eee;
+            box-shadow:0 0 15px rgba(0,0,0,.3);
+            padding:0 20px;
+            .booking__price{
+                text-align: center;
+                font-size: 50px;
+                color: green;
+            }
+            .booking__info{
+                .name{
+                    font-weight: bold;
+                }
+            }
+            .booking__row{
+                .row__left{
+                    color: red;
+                }
+                .row__right{
+                    text-align: right;
+                    color: green;
+                }
+            }
+            .put{
+                text-align: center;
+                button{
+                    width: 100%;
+                    padding: 10px 0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+   

@@ -1,0 +1,144 @@
+// .wap__film{
+//     .film{
+//         width: 100%;
+//         padding: 7px;
+//         .film__content{
+//             position:relative;
+//             margin-bottom:10px;
+//             background-size: cover;
+//             background-repeat: no-repeat;
+//             height: 341px;
+//             .image__film{
+//                 border-radius:5px;
+//             }
+//             .room{
+//                 position: absolute;
+//                 top: 12px;
+//                 left: 12px;
+//                 background-color: #fb4226;
+//                 padding: 0 7px;
+//                 border-radius: 5px;
+//                 color: #fff;
+//             }
+//             .hover__film{
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 width:100%;
+//                 height:100%;
+//                 background: linear-gradient(to top,#000,transparent 100%);
+//                 opacity:0;
+//                 visibility: hidden;
+//                     button{
+//                         position: absolute;
+//                         display:block;
+//                         top: 50%;
+//                         left: 50%;
+//                         transform: translate(-50%, -50%);
+//                         background: none;
+//                         border: none;
+//                         width: 70px;
+//                         height: 60px;
+//                         cursor:pointer;
+//                         z-index:10;
+//                         transition:all .3s;
+//                         -webkit-transition: all .3s;
+//                         -moz-transition: all .3s;
+//                         &:hover{
+//                             opacity:0.6;
+//                         }
+//                     }
+//             }
+//             .point__film{
+//                 position:absolute;
+//                 top:12px;
+//                 right:12px;
+//                 width:54px;
+//                 background-color:rgba(12,27,54,.8);
+//                 border: 1px solid #1f2e46;
+//                 text-align:center;
+//                 border-radius: 5px;
+//                 .txtPoint{
+//                     color:#fff;
+//                     font-weight:bold;
+//                     font-size:16px;
+//                     margin:0;
+//                 }
+//                 .star{
+//                     display: flex;
+//                     justify-content: center;
+//                     margin-bottom:5px;
+//                     .smallStar{
+//                         max-width:8px;
+//                     }
+//                     .half__star{
+//                         max-width:8px;
+//                     }
+//                 }
+//             }
+//         }
+//         .info__film{
+//             position:relative;
+//             h6{
+//                 font-size: 16px;
+//                 font-family: 'SF Medium';
+//                 font-weight: bold;
+//                 color: #000;
+//                 height: 42px;
+//                 overflow: hidden;
+//                 text-overflow: ellipsis;
+//                 display: -webkit-box;
+//                 -webkit-line-clamp: 2;
+//                 -webkit-box-orient: vertical;
+//                 transition:all .3s;
+//                 -webkit-transition: all .3s;
+//                 -moz-transition: all .3s;
+//             }
+//             .hover__infoFilm{
+//                 a{
+//                     position: absolute;
+//                     top: 0;
+//                     left: 0;
+//                     width: 100%;
+//                     background: #fb4226;
+//                     text-align: center;
+//                     padding: 8px 0;
+//                     font-size: 17px;
+//                     font-weight: bold;
+//                     color: #fff;
+//                     border-radius: 5px;
+//                     text-decoration: none;
+//                     opacity:0;
+//                     visibility: hidden;
+//                     transition:all .3s;
+//                     -webkit-transition: all .3s;
+//                     -moz-transition: all .3s;
+//                     &:hover{
+//                         background:#ce3017;
+//                     }
+//                 }
+//             }
+//         }
+//         &:hover{
+//             .film__content{
+//                 .hover__film{
+//                     opacity:1;
+//                     visibility: visible;
+                    
+//                 }
+//             }
+//             .info__film{
+//                 h6,p{
+//                     opacity:0;
+//                     visibility: hidden;
+//                 }
+//                 .hover__infoFilm{
+//                     a{
+//                         opacity:1;
+//                         visibility: visible;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
